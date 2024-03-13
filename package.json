@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test-old": "ts-node czechitasWebTests.ts",
-    "test": "npx playwright test --debug"
+    "test:debug": "ts-node -r czechitasLoginPageTests.spec.ts",
+    "test": "npx playwright test ./tests/czechitasLoginPageTests.spec.ts"
   },
   "keywords": [],
   "author": "",
